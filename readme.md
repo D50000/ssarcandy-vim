@@ -30,6 +30,8 @@ Enter vim, type following command to install plugins: `:PlugInstall`
  - A: ack.vim required [ack](http://beyondgrep.com/install/) installed.
  - Q: vim-go not working
  - A: see vim-go [readme](https://github.com/fatih/vim-go#install)
+ - Q: Error detected while processing function <SNR>
+ - A: open `~/.vim/vimrc` and replace `Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }.` to `Plug 'scrooloose/nerdtree'`. 
 
 ## Plugin list
 
